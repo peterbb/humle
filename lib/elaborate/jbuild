@@ -1,0 +1,6 @@
+(jbuild_version 1)
+
+(library
+  ((name elaborate)
+   (public_name elaborate)
+   (libraries (frontend core))))

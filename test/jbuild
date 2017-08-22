@@ -1,0 +1,7 @@
+(jbuild_version 1)
+
+(alias
+    ((name runtest)
+     (deps (../bin/humlec.exe))
+     (action (run ../bin/humlec.exe ${path:types.f}))))
+
